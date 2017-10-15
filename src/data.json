@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Harry",
+      "about": "Sports!"
+    }, {
+      "id": 2,
+      "name": "David",
+      "about": "I'm the best"
+    }, {
+      "id": 3,
+      "name": "Hannah",
+      "about": "Love books"
+    }, {
+      "id": 4,
+      "name": "Roger",
+      "about": "Here for a good time"
+    }, {
+      "id": 5,
+      "name": "Katie",
+      "about": "Better at sports than Harry"
+    }
+  ]
+}
