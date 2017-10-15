@@ -6,8 +6,8 @@ const {
   GraphQLString
 } = require('graphql');
 
-const tables = require('./tables');
-const loaders = require('./loaders');
+const tables = require('tables');
+const loaders = require('loaders');
 
 const NodeInterface = new GraphQLInterfaceType({
   name: 'Node',
@@ -40,7 +40,8 @@ const UserType = new GraphQLObjectType({
         type: new GraphQLNonNull(GraphQLID),
         resolve: resolveId
       },
-      name: { type: new GraphQLNonNull(GraphQLString) }
+      name: { type: new GraphQLNonNull(GraphQLString) },
+      about: { type: GraphQLString },
     }
   }
 })

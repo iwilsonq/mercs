@@ -4,9 +4,9 @@
   "main": "server.js",
   "license": "MIT",
   "scripts": {
-    "start": "NODE_PATH=src nodemon src/server.js",
+    "start": "NODE_PATH=server nodemon server/server.js",
     "test": "",
-    "seed": "NODE_PATH=src node src/seedData.js"
+    "seed": "NODE_PATH=server node server/seedData.js"
   },
   "dependencies": {
     "basic-auth-connect": "^1.0.0",
