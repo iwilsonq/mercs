@@ -6,7 +6,7 @@
   "scripts": {
     "start": "NODE_PATH=server nodemon server/server.js",
     "test": "",
-    "seed": "NODE_PATH=server node server/seedData.js"
+    "seed": "NODE_PATH=server node server/database/seedData.js"
   },
   "dependencies": {
     "basic-auth-connect": "^1.0.0",
