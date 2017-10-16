@@ -4,7 +4,7 @@
   "main": "server.js",
   "license": "MIT",
   "scripts": {
-    "start": "NODE_PATH=server nodemon server/server.js",
+    "start": "NODE_PATH=server node server/server.js",
     "test": "",
     "seed": "NODE_PATH=server node server/database/seedData.js"
   },
