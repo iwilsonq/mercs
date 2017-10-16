@@ -1,6 +1,11 @@
 const mysql = require('mysql');
 
-const database = mysql.createConnection(process.env.CLEARDB_DATABASE_URL);
+const database = mysql.createConnection({
+  host: process.env.DB_HOST,
+  user: process.env.DB_USER,
+  password: process.env.DB_PASSWORD,
+  database: process.env.DB_NAME,
+});
 
 const getSql = query => {
   return new Promise((resolve, reject) => {
