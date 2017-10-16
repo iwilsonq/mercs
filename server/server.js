@@ -16,6 +16,10 @@ database.connect(err => {
 
 app.use(basicAuth((user, pass) => pass === 'mypassword1'));
 
+app.get('/', (req, res) => {
+	res.send({ mercs: 'online' })
+})
+
 app.use(
 	'/graphql',
 	graphqlHTTP(req => {
