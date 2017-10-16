@@ -16,9 +16,7 @@
     "express-graphql": "^0.6.11",
     "graphql": "^0.11.7",
     "mysql": "^2.15.0",
-    "sql": "^0.78.0"
-  },
-  "devDependencies": {
+    "sql": "^0.78.0",
     "nodemon": "^1.12.1"
   }
 }
